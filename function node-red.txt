@@ -1,0 +1,5 @@
+msg.topic = "INSERT INTO sensor_data (temperature, humidity, light) VALUES ("
+    + msg.payload.temperature + ","
+    + msg.payload.humidity + ","
+    + msg.payload.light + ")";
+return msg;
